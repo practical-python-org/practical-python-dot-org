@@ -1,0 +1,28 @@
+# Everything here is built by CI on Linux. A contributor with core.autocrlf
+# set to true would otherwise commit CRLF, which shows up as a whole-file
+# diff on the next person's checkout and makes review useless.
+
+# Normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.css   text eol=lf
+*.html  text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.toml  text eol=lf
+*.txt   text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# Binary files — never diff or merge
+*.ico   binary
+*.jpeg  binary
+*.jpg   binary
+*.png   binary
+*.webp  binary
+*.woff  binary
+*.woff2 binary
+
+# The lockfile is generated. Keep it out of diff summaries and let uv own it.
+uv.lock linguist-generated=true -diff
