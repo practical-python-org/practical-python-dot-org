@@ -1,0 +1,32 @@
+# zensical
+/site/
+/.zensical/
+
+# Editors
+/.idea/
+/.vscode/
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling caches
+.cache/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Environment overrides for local builds
+.env
