@@ -55,7 +55,7 @@ output.
     The full list, with permissions and arguments, is in the
     [Eos documentation](../projects/our-projects/eos.md).
 
-  
+
 === "Run code in the chat!"
 
     `>run` executes a Python code-block and replies with the output.

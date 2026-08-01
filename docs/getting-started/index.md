@@ -26,7 +26,7 @@ For those who are looking to get started with Python, or to simply be a part of 
 
     [:octicons-arrow-right-24: Pick a challenge](../projects/build-something/index.md)
 
-   
+
 -   :material-tools:{ .lg .middle } __Our projects__
 
     ---

@@ -44,7 +44,7 @@ When you share something you built:
 
 - **Always include the source code.** A repository, a gist, or a fenced block.
 - **Never post an `.exe`**, or any other compiled binary. Nobody can read it,
-  and nobody should run it. Ever. 
+  and nobody should run it. Ever.
 
 Got something you genuinely need to advertise? Ask a moderator first through the
 **/ticket** system. If your heart is pure, and your intentions are good, we will probably let you do it!
@@ -69,7 +69,7 @@ hard to keep this place safe and enjoyable, so trust their judgement — they're
 here to help.
 
 Arguing a decision in public channels after it's been made is itself a problem.
-[Moderation](moderation.md) explains how to appeal properly. 
+[Moderation](moderation.md) explains how to appeal properly.
 
 ## 6. No jobs or employment advertising
 

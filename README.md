@@ -1,6 +1,6 @@
 # practical-python.org
 
-The website and documentation space for the Practical Python Discord community. 
+The website and documentation space for the Practical Python Discord community.
 
 Built with [Zensical](https://zensical.org/)
 

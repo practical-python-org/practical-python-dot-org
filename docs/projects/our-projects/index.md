@@ -26,7 +26,7 @@ approvals, merge. Both have issues labelled for newcomers.
     Get the project building locally before you pick an issue. Half of a first
     contribution is understanding the setup, and it's much easier to ask about
     that in advance than halfway through a pull request. If you need help, ask in
-    the Discord server! 
+    the Discord server!
 
 ## Suggesting a new project
 

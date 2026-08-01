@@ -9,7 +9,7 @@ channels are environment problems wearing a costume.
 
 ## Install Python
 
-Get 3.12 or newer. I'd avoid any version of python that isn't in the [latest stable release](https://devguide.python.org/versions/). 
+Get 3.12 or newer. I'd avoid any version of python that isn't in the [latest stable release](https://devguide.python.org/versions/).
 
 === "Windows"
 

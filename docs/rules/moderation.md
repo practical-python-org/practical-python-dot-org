@@ -17,7 +17,7 @@ What happens when a rule gets broken
 | 5 | Kick | Pattern of warnings with no change |
 | 6 | Ban | Code of conduct breach, scams, ban evasion |
 
-Steps aren't mandatory stops, and moderators get the final say. 
+Steps aren't mandatory stops, and moderators get the final say.
 
 ## Automatic enforcement
 
@@ -33,7 +33,7 @@ Some of this is handled by the bot, with no moderator involved.
 
     Quarantine removes your verified role and hides the server's channels. It's
     what happens when the bot or a mod thinks your account is compromised, spamming or annoying.
-    A moderator can release you in seconds once it's sorted. 
+    A moderator can release you in seconds once it's sorted.
 
 ## What moderators can see
 
