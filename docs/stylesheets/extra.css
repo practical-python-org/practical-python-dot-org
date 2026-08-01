@@ -1,0 +1,52 @@
+:root {
+  --md-primary-fg-color: #2b3a67;
+  --md-primary-fg-color--light: #3d5199;
+  --md-primary-fg-color--dark: #1d2747;
+  --md-accent-fg-color: #4c6ef5;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #91a7ff;
+  --md-typeset-a-color: #91a7ff;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset table:not([class]) th {
+  font-weight: 600;
+}
+
+.pp-hero {
+  text-align: center;
+  padding: 3.2rem 0 2.4rem;
+}
+
+.md-typeset .pp-hero h1 {
+  margin-bottom: 0.4em;
+  color: var(--md-default-fg-color);
+  font-size: 2.4rem;
+}
+
+.md-typeset .pp-hero p {
+  max-width: 34rem;
+  margin-inline: auto;
+  font-size: 0.9rem;
+}
+
+.md-typeset .pp-hero .md-button {
+  margin: 0.3rem 0.2rem 0;
+}
+
+@media screen and (max-width: 44.98em) {
+  .pp-hero {
+    padding: 1.6rem 0 1.2rem;
+  }
+
+  .md-typeset .pp-hero h1 {
+    font-size: 1.8rem;
+  }
+}

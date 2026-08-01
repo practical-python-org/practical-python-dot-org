@@ -1,0 +1,20 @@
+[project]
+name = "practical-python-docs"
+version = "0.1.0"
+description = "Landing page and documentation for the Practical Python Discord community."
+requires-python = ">=3.12"
+dependencies = [
+    "zensical>=0.0.51",
+]
+
+[dependency-groups]
+dev = ["pre-commit>=4.6.1"]
+
+# This is a documentation site, not a library. Nothing here gets built into a
+# wheel, so don't make uv try.
+[tool.uv]
+package = false
+
+[tool.codespell]
+# "wit" is a word we mean; codespell reads it as a typo of "with".
+ignore-words-list = "wit"
