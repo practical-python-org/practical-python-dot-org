@@ -5,7 +5,7 @@ description: Which channel your message belongs in.
 # Channels
 
 Post in the right place and you'll get an answer faster. Post in the wrong place
-and maybe someone will move you, or your question wont get seen.
+and maybe someone will move you, or your question won't get seen.
 
 
 ## Getting help
