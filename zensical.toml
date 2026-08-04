@@ -144,7 +144,7 @@ discord_invite = "https://discord.gg/cJqZ7SBHz9"
 # build (or a deploy that couldn't reach Discord) renders instead — keep it a
 # real, rounded-down figure so it stays true rather than merely present.
 member_count = "4,300+"
-eos_repo = "https://github.com/Xarlos89/Eos"
+eos_repo = "https://github.com/practical-python-org/Eos"
 site_repo = "https://github.com/practical-python-org/practical-python-dot-org"
 
 [[project.extra.social]]
