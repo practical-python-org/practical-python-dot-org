@@ -5,7 +5,7 @@ site_author = "Practical Python"
 site_url = "https://practical-python.org/"
 copyright = "Copyright &copy; 2026 Practical Python"
 
-repo_url = "https://github.com/Xarlos89/practical-python-dot-org"
+repo_url = "https://github.com/practical-python-org/practical-python-dot-org"
 repo_name = "Xarlos89/practical-python-dot-org"
 edit_uri = "edit/main/docs/"
 
@@ -144,7 +144,7 @@ discord_invite = "https://discord.gg/cJqZ7SBHz9"
 # build (or a deploy that couldn't reach Discord) renders instead — keep it a
 # real, rounded-down figure so it stays true rather than merely present.
 member_count = "4,300+"
-eos_repo = "https://github.com/Xarlos89/Eos"
+eos_repo = "https://github.com/practical-python-org/Eos"
 site_repo = "https://github.com/practical-python-org/practical-python-dot-org"
 
 [[project.extra.social]]
