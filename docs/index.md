@@ -7,7 +7,7 @@ hide:
 
 <div class="pp-hero" markdown>
 
-<img src="/static/logo.svg">
+![Practical Python Logo](/static/logo.svg)
 
 A Discord community for people who write Python. {{ member_count }} of us so far.
 
