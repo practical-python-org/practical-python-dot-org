@@ -48,7 +48,7 @@ Two steps, and the second one is easy to forget:
 1. Create the Markdown file in the right folder under `docs/`.
 2. Add it to the `nav` list in `zensical.toml`.
 
-[CONTRIBUTING.md](https://github.com/Xarlos89/practical-python-dot-org/blob/main/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/practical-python-org/practical-python-dot-org/blob/main/CONTRIBUTING.md)
 covers the writing conventions, which matter more than the mechanics.
 
 ## Deployment
