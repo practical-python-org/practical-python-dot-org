@@ -22,7 +22,7 @@
 
 .pp-hero {
   text-align: center;
-  padding: 3.2rem 0 2.4rem;
+  padding: 0 0 2.4rem;
 }
 
 .md-typeset .pp-hero h1 {
@@ -32,7 +32,7 @@
 }
 
 .md-typeset .pp-hero p {
-  max-width: 34rem;
+  max-width: 44rem;
   margin-inline: auto;
   font-size: 0.9rem;
 }
