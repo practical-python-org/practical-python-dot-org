@@ -7,14 +7,15 @@ hide:
 
 <div class="pp-hero" markdown>
 
-# Practical Python
+<img src="/static/logo.svg">
 
 A Discord community for people who write Python. {{ member_count }} of us so far.
 
 [Join the Discord]({{ discord_invite }}){ .md-button .md-button--primary }
 
-
 </div>
+
+#
 
 <div class="grid cards" markdown>
 
