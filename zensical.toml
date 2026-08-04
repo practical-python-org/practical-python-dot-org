@@ -2,11 +2,11 @@
 site_name = "Practical Python"
 site_description = "Rules, resources and projects for the Practical Python Discord community."
 site_author = "Practical Python"
-site_url = "https://practical-python.org/"
+site_url = "https://practicalpython.org/"
 copyright = "Copyright &copy; 2026 Practical Python"
 
 repo_url = "https://github.com/practical-python-org/practical-python-dot-org"
-repo_name = "Xarlos89/practical-python-dot-org"
+repo_name = "practical-python-org/practical-python-dot-org"
 edit_uri = "edit/main/docs/"
 
 extra_css = ["stylesheets/extra.css"]
