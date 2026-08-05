@@ -62,7 +62,7 @@ A Discord community for people who write Python. {{ member_count }} of us so far
     Every page here is Markdown in a public repository, written by members. If
   something is wrong, unclear, or missing, open an issue or PR!
 
-    [:octicons-arrow-right-24: Contribute!]((projects/our-projects/this-site.md))
+    [:octicons-arrow-right-24: Contribute!](projects/our-projects/this-site.md)
 
 
 </div>
