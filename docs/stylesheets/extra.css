@@ -41,6 +41,33 @@
   margin: 0.3rem 0.2rem 0;
 }
 
+.adventure img {
+  transition: transform 0.15s ease;
+  border-radius: 0.5rem;
+}
+
+.adventure img:hover {
+  animation: magic-pulse 1.3s infinite;
+  transform: scale(1.02);
+}
+
+@keyframes magic-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 rgba(94, 139, 222, 0),
+      0 0 8px rgba(94, 139, 222, 0.35),
+      0 0 18px rgba(94, 139, 222, 0.2);
+  }
+
+  50% {
+    box-shadow:
+      0 0 12px rgba(94, 139, 222, 0.9),
+      0 0 30px rgba(94, 139, 222, 0.7),
+      0 0 60px rgba(94, 139, 222, 0.5);
+  }
+}
+
 @media screen and (max-width: 44.98em) {
   .pp-hero {
     padding: 1.6rem 0 1.2rem;

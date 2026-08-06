@@ -44,6 +44,9 @@ nav = [
     "rules/moderation.md",
     "rules/channels.md",
   ] },
+  { "Code Adventure" = [
+    "code-adventure/index.md",
+  ] },
 ]
 
 [project.theme]
