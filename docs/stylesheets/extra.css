@@ -41,6 +41,15 @@
   margin: 0.3rem 0.2rem 0;
 }
 
+.flip svg {
+  transform: scaleX(-1);
+}
+
+.highlight {
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
+
 .adventure img {
   transition: transform 0.15s ease;
   border-radius: 0.5rem;
