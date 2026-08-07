@@ -2,7 +2,7 @@
 description: A story-based series of Programming Puzzles inspired by Advent of Code
 ---
 
-# 
+#
 
 [![Practical Python Code Adventure](/static/code-adventure/MAINlight.png#only-light)](#adventures)
 [![Practical Python Code Adventure](/static/code-adventure/MAINdark.png#only-dark)](#adventures)
@@ -17,7 +17,7 @@ of mystery and satisfaction to each solution.
 The puzzles are __free for everyone to enjoy__. Signing in with Discord is optional and lets you save your
 progress, but you are also welcome to play as a guest. For the best experience, we recommend completing the
 puzzles in order so the story develops naturally, though you're free to tackle them in any order or skip a
-puzzle if it proves too challenging. 
+puzzle if it proves too challenging.
 
 Do you love solving puzzles and learning something new? __Join us on a Code Adventure!__
 
@@ -65,7 +65,7 @@ Do you love solving puzzles and learning something new? __Join us on a Code Adve
     ---
 
     [:material-heart-outline:{ .lg .middle } __Gratitude__](https://adventure.practicalpython.org/gratitude)
-    
+
     :   Practical Python Code Adventure wouldn't be what it is without the help of a great community.
         Several people have contributed their time and expertise by helping with hosting, beta testing,
         UX testing, and advice. __They deserve recognition, so you'll find them listed here__!
@@ -77,11 +77,10 @@ Do you love solving puzzles and learning something new? __Join us on a Code Adve
         everyone. If you can, __your support means a lot and is genuinely appreciated__.
 
     :   __See who's already helped support the adventure__, or find out how you can become a sponsor yourself.
-        
+
     :   __Corporate sponsorship opportunities are also available__.
 
     [:simple-github:{ .lg .middle } __Github__](https://github.com/JefeThePug/Practical-Python-Code-Adventure)
 
     :   Curious about how the adventure was made? __Check out the project on GitHub__.
         If you like what you see, feel free to give it a :material-star:{ .lg .bottom }.
-
