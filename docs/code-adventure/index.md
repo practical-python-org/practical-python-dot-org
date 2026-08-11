@@ -7,20 +7,20 @@ description: A story-based series of Programming Puzzles inspired by Advent of C
 [![Practical Python Code Adventure](/static/code-adventure/MAINlight.png#only-light)](#adventures)
 [![Practical Python Code Adventure](/static/code-adventure/MAINdark.png#only-dark)](#adventures)
 
-Practical Python Code Adventure is a series of programming puzzles inspired by Eric Wastl's *Advent of Code*.
+Practical Python Code Adventure is a series of programming puzzles inspired by Eric Wastl's
+*Advent of Code*.
 
-Each year features __10 story-driven puzzles__ designed to teach programming concepts, popular algorithms,
-and real topics from mathematics and science. Every puzzle has two parts, with the second building on the first
-to provide an extra challenge. As you progress, the story unfolds alongside the puzzles, adding another layer
-of mystery and satisfaction to each solution.
+Each year features __10 story-driven puzzles__ designed to teach programming concepts, popular
+algorithms, and real topics from mathematics and science. Every puzzle has two parts, with the
+second building on the first to provide an extra challenge. As you progress, the story unfolds
+alongside the puzzles, adding another layer of mystery and satisfaction to each solution.
 
-The puzzles are __free for everyone to enjoy__. Signing in with Discord is optional and lets you save your
-progress, but you are also welcome to play as a guest. For the best experience, we recommend completing the
-puzzles in order so the story develops naturally, though you're free to tackle them in any order or skip a
-puzzle if it proves too challenging.
+The puzzles are __free for everyone to enjoy__. Signing in with Discord is optional and lets you
+save your progress, but you are also welcome to play as a guest. For the best experience, we
+recommend completing the puzzles in order so the story develops naturally, though you're free to
+tackle them in any order or skip a puzzle if it proves too challenging.
 
 Do you love solving puzzles and learning something new? __Join us on a Code Adventure!__
-
 
 ## :octicons-trophy-24:{ .md .middle } Adventures
 
@@ -54,7 +54,6 @@ Do you love solving puzzles and learning something new? __Join us on a Code Adve
 
 
 </div>
-
 
 !!! tip ""
 

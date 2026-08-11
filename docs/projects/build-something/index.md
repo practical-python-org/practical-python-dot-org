@@ -4,22 +4,22 @@ description: Project challenges with a defined scope, sorted by difficulty.
 
 # Build something
 
-"Build a project" is advice that helps nobody. These are challenges: a target, a
-definition of finished, and no solution.
+"Build a project" is advice that helps nobody. These are challenges: a target, a definition of
+finished, and no solution.
 
 ## How a challenge works
 
 Every challenge has the same four parts.
 
-| Part | Means |
-|------|-------|
-| **Goal** | One sentence on what the thing does |
-| **Done when** | The checklist that decides whether you've finished |
-| **Stretch** | Optional extras, roughly in order of difficulty |
-| **Time** | A rough estimate for someone at that level, assuming they get stuck twice |
+| Part          | Means                                                                     |
+|---------------|---------------------------------------------------------------------------|
+| **Goal**      | One sentence on what the thing does                                       |
+| **Done when** | The checklist that decides whether you've finished                        |
+| **Stretch**   | Optional extras, roughly in order of difficulty                           |
+| **Time**      | A rough estimate for someone at that level, assuming they get stuck twice |
 
-The time estimate is a guide, not a target. Taking three times as long is normal
-and isn't a signal about you.
+The time estimate is a guide, not a target. Taking three times as long is normal and isn't a signal
+about you.
 
 ## Levels
 
@@ -47,21 +47,20 @@ and isn't a signal about you.
 
 ## Rules of the exercise
 
-- Use the standard library first. Reach for a dependency when the standard
-  library actually can't do it.
+- Use the standard library first. Reach for a dependency when the standard library actually can't do
+  it.
 - Write it badly, then fix it. A working ugly version beats an elegant plan.
 - Post it in the showcase channel when it works, even if you think it's small.
 
 !!! tip "Stuck is the point"
 
-    A challenge you can finish without getting stuck was too easy. When you do get
-    stuck, [ask well](../../resources/asking-good-questions.md) and say which
-    challenge you're on.
+    A challenge you can finish without getting stuck was too easy. When you do get stuck,
+    [ask well](../../resources/asking-good-questions.md) and say which challenge you're on.
 
 ## If none of these appeal
 
-challenges here are deliberately few. When you want a longer list, or something in a
-specific direction:
+challenges here are deliberately few. When you want a longer list, or something in a specific
+direction:
 
 | Where | What you'll find |
 |-------|------------------|
@@ -71,10 +70,10 @@ specific direction:
 
 !!! warning "Reading the solution isn't building it"
 
-    The first two links include working code. Looking at it before you've tried
-    costs you the entire exercise.
+    The first two links include working code. Looking at it before you've tried costs you the entire
+    exercise.
 
 ## Adding a challenge
 
-Open a pull request. Keep the four parts, don't include a solution, and make sure
-"done when" is something a reader can check for themselves.
+Open a pull request. Keep the four parts, don't include a solution, and make sure "done when" is
+something a reader can check for themselves.

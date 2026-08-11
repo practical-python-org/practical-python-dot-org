@@ -4,8 +4,8 @@ description: Quick references and small tools worth keeping in a browser tab.
 
 # Cheat sheets and tools
 
-Things you look at for thirty seconds and then close. None of this teaches you
-Python — it saves you from re-learning the same syntax every few weeks.
+Things you look at for thirty seconds and then close. None of this teaches you Python — it saves you
+from re-learning the same syntax every few weeks.
 
 ## Quick reference
 
@@ -32,22 +32,21 @@ Python — it saves you from re-learning the same syntax every few weeks.
 | [pyreadiness.org](https://pyreadiness.org/) | A package won't install and you suspect your Python version is too new |
 | [Visual TK](https://visualtk.com/) | Laying out a `tkinter` window by dragging, then taking the generated code as a starting point |
 
-Treat generated GUI code as a first draft. It gets a window on screen; it won't
-be organised the way you'd organise it.
+Treat generated GUI code as a first draft. It gets a window on screen; it won't be organised the way
+you'd organise it.
 
 ## Learning git
 
 Git isn't Python, and it will still take up a week of your life eventually.
 
-[Learn Git Branching](https://learngitbranching.js.org/) is the best free
-introduction we know of. It draws the commit graph as you type real commands,
-which turns `rebase` and `merge` from incantations into something you can see.
+[Learn Git Branching](https://learngitbranching.js.org/) is the best free introduction we know of.
+It draws the commit graph as you type real commands, which turns `rebase` and `merge` from
+incantations into something you can see.
 
-Do the "Introduction Sequence" before your first pull request and most of the
-scary parts of git stop being scary.
+Do the "Introduction Sequence" before your first pull request and most of the scary parts of git
+stop being scary.
 
 ## Where to go next
 
 The [learning path](learning-path.md) has material sorted by level, and the
-[project briefs](../projects/build-something/index.md) give you something to
-point all this at.
+[project briefs](../projects/build-something/index.md) give you something to point all this at.

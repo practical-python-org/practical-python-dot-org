@@ -4,22 +4,21 @@ description: How this documentation site is built, checked and deployed.
 
 # This site
 
-The site you're reading. Markdown in, static HTML out, deployed by CI when
-something lands on `main`. Source at [{{ site_repo }}]({{ site_repo }}).
+The site you're reading. Markdown in, static HTML out, deployed by CI when something lands on
+`main`. Source at [{{ site_repo }}]({{ site_repo }}).
 
 ## Stack
 
-| Piece | What it does |
-|-------|--------------|
+| Piece                             | What it does                                                                                       |
+|-----------------------------------|----------------------------------------------------------------------------------------------------|
 | [Zensical](https://zensical.org/) | Static site generator, by the Material for MkDocs team. Search, navigation and macros are built in |
-| [uv](https://docs.astral.sh/uv/) | Dependency management. Versions are pinned in `uv.lock` |
-| pre-commit | Formatting, typo and build checks before a commit lands |
-| GitHub Actions | Builds on every pull request, deploys on merge to `main` |
-| GitHub Pages | Hosting, with a custom domain |
+| [uv](https://docs.astral.sh/uv/)  | Dependency management. Versions are pinned in `uv.lock`                                            |
+| pre-commit                        | Formatting, typo and build checks before a commit lands                                            |
+| GitHub Actions                    | Builds on every pull request, deploys on merge to `main`                                           |
+| GitHub Pages                      | Hosting, with a custom domain                                                                      |
 
-There is one dependency, `zensical`, and it brings eight transitive packages with
-it. That's deliberate — the plugin list this site would have needed under MkDocs
-is all built in.
+There is one dependency, `zensical`, and it brings eight transitive packages with it. That's
+deliberate — the plugin list this site would have needed under MkDocs is all built in.
 
 ## Running it locally
 
@@ -28,8 +27,7 @@ $ uv sync
 $ uv run zensical serve
 ```
 
-That serves on `http://127.0.0.1:8000` and rebuilds when you save. To check what
-CI will check:
+That serves on `http://127.0.0.1:8000` and rebuilds when you save. To check what CI will check:
 
 ```console
 $ uv run zensical build --strict
@@ -37,9 +35,9 @@ $ uv run zensical build --strict
 
 !!! warning "--strict is the gate"
 
-    Broken internal links and dead anchors are build failures, not warnings. If
-    a link to `resources/getting-started.md` has a typo, the build fails and the
-    deploy never happens. Run it before you push.
+    Broken internal links and dead anchors are build failures, not warnings. If a link to
+    `resources/getting-started.md` has a typo, the build fails and the deploy never happens. Run it
+    before you push.
 
 ## Adding a page
 
@@ -53,12 +51,10 @@ covers the writing conventions, which matter more than the mechanics.
 
 ## Deployment
 
-Merging to `main` triggers a workflow that builds the site and publishes it to
-GitHub Pages. There's no manual step.
-PRs to main require at least 2 approving reviews from verified contributors.
+Merging to `main` triggers a workflow that builds the site and publishes it to GitHub Pages. There's
+no manual step. PRs to main require at least 2 approving reviews from verified contributors.
 
 Pull requests run with `--strict`, plus the pre-commit checks.
-
 
 ## Related
 
