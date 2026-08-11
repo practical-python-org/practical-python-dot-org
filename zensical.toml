@@ -18,6 +18,9 @@ nav = [
   { "Home" = "index.md" },
   { "Getting started" = "getting-started/index.md" },
 
+  { "Python Tutorial" = [
+      "python-tutorial/index.md",
+  ] },
   { "Resources" = [
     "resources/index.md",
     "resources/getting-started.md",
