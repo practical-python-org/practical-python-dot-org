@@ -28,11 +28,8 @@ repos:
         pass_filenames: false
         files: ^(docs/|zensical\.toml|pyproject\.toml|uv\.lock)
 
-  - repo: https://github.com/hukkin/mdformat
-    rev: 1.0.0
+  - repo: https://github.com/swiss-ai-center/mdwrap
+    rev: 0.2.5
     hooks:
-    - id: mdformat
-      additional_dependencies:
-      - mdformat-mkdocs
-      - mdformat-ruff
-      - mdformat-gfm
+      - id: mdwrap
+        args: [--print-width, "100", -i, "docs/resources/asking-good-questions.md", --fmt]
