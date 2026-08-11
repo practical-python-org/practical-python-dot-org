@@ -4,7 +4,8 @@ description: A guide for new people
 
 # Welcome
 
-For those who are looking to get started with Python, or to simply be a part of a python community, this is the place to be.
+For those who are looking to get started with Python, or to simply be a part of a python community,
+this is the place to be.
 
 <div class="grid cards" markdown>
 -   :material-book-open-variant:{ .lg .middle } __Resources__
@@ -39,9 +40,7 @@ For those who are looking to get started with Python, or to simply be a part of 
 
 </div>
 
-
 ## Contributing to either
 
-Both halves take pull requests. Adding a challenge is the easiest first contribution
-to this site — see [contributing](../projects/our-projects/this-site.md) for how
-the site is built.
+Both halves take pull requests. Adding a challenge is the easiest first contribution to this site —
+see [contributing](../projects/our-projects/this-site.md) for how the site is built.

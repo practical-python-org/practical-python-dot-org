@@ -4,9 +4,8 @@ description: Which channel your message belongs in.
 
 # Channels
 
-Post in the right place and you'll get an answer faster. Post in the wrong place
-and maybe someone will move you, or your question won't get seen.
-
+Post in the right place and you'll get an answer faster. Post in the wrong place and maybe someone
+will move you, or your question won't get seen.
 
 ## Getting help
 
@@ -21,24 +20,22 @@ half-answers and an irritated moderator.
 
 ## Everything else
 
-| Channel type | For |
-|--------------|-----|
-| General chat | Anything not a support request |
-| Off-topic | Not Python. Still covered by [the rules](index.md) |
-| Voice | Pair programming, study sessions, quiet co-working |
+| Channel type | For                                                |
+|--------------|----------------------------------------------------|
+| General chat | Anything not a support request                     |
+| Off-topic    | Not Python. Still covered by [the rules](index.md) |
+| Voice        | Pair programming, study sessions, quiet co-working |
 
 ## Threads
 
-Use a thread when a conversation outlives its usefulness to the channel — a long
-debugging session, a tangent, a design argument. Start one, don't apologise for
-it.
+Use a thread when a conversation outlives its usefulness to the channel — a long debugging session,
+a tangent, a design argument. Start one, don't apologise for it.
 
 Threads inherit the rules of their parent channel.
 
 ## Bot commands
 
-Commands work in most channels, but check before filling a help channel with bot
-output.
+Commands work in most channels, but check before filling a help channel with bot output.
 
 === "Slash commands"
 
@@ -55,7 +52,6 @@ output.
     The full list, with permissions and arguments, is in the
     [Eos documentation](../projects/our-projects/eos.md).
 
-
 === "Run code in the chat!"
 
     `>run` executes a Python code-block and replies with the output.
@@ -64,7 +60,4 @@ output.
 
     ````text
     >run
-    ```py
-    print("oh wow!")
-    ```
-    ````
+    ```py print("oh wow!") ``` ````

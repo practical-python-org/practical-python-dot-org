@@ -4,8 +4,8 @@ description: Curated Python learning material, vetted by people who answer quest
 
 # Resources
 
-Material we recommend often enough to write down. Everything here has been read
-by someone in the community who then said it was worth your time.
+Material we recommend often enough to write down. Everything here has been read by someone in the
+community who then said it was worth your time.
 
 <div class="grid cards" markdown>
 
@@ -49,13 +49,13 @@ by someone in the community who then said it was worth your time.
 
 ## Suggesting a resource
 
-Open a pull request against this site. Say what the resource is, who it's for,
-and why you're recommending it over the obvious alternative.
+Open a pull request against this site. Say what the resource is, who it's for, and why you're
+recommending it over the obvious alternative.
 
-We reject more suggestions than we accept, usually because the list is already
-long enough at that level. Nothing personal.
+We reject more suggestions than we accept, usually because the list is already long enough at that
+level. Nothing personal.
 
 !!! note "No affiliate links"
 
-    Recommendations here are unpaid. If you have a financial interest in
-    something you're suggesting, say so in the pull request.
+    Recommendations here are unpaid. If you have a financial interest in something you're suggesting,
+    say so in the pull request.
