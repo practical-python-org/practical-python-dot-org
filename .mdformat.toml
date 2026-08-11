@@ -1,0 +1,16 @@
+wrap = "keep"
+number = false
+end_of_line = "lf"
+validate = true
+codeformatters = [
+    "python",
+]
+exclude = [
+    "CONTRIBUTING.md",
+    "README.md",
+    "venv/**",
+    "**/node_modules/**",
+
+    # exclude all files that are not suffixed .md
+    "**/?", "**/??", "**/???", "**/*[!.]??", "**/*[!m]?", "**/*[!d]",
+]
