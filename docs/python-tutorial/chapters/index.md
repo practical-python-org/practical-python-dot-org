@@ -6,7 +6,7 @@ description: List of topics to be covered in the Python tutorial.
 
 ## Level 1
 
-- Brief Python History
+- [Brief Python History](01-python-history.md)
 - Introduction to Variables
 - Data Types pt 1 (`int`, `float`, `bool` & `strings`)
 - Builtin Functions pt 1 (`print` & `input` and type casting)
