@@ -29,7 +29,7 @@ basics to build your fundamentals and prepare you to learn them on your own.
 
 <figure markdown="span">
 
-![Image title](/static/python-tutorial/guido-portrait-2014.jpg){ width="300" }
+![Image title](/static/python-tutorial/01-guido-portrait.jpg){ width="300" }
 
 <figcaption>Guido van Rossum in 2014</figcaption>
 
