@@ -9,12 +9,12 @@ Why was it created and by whom? Where does Python stand today?
 
 The Python programming language was developed back in the late 1980s by Guido van Rossum in the
 Netherlands. It was the successor of the ABC language which was used to teach students in
-universities. But it lacked extensibility from being used in real-world programming tasks, which
+universities, but it lacked extensibility from being used in real-world programming tasks, which
 brings us to Python.
 
 Van Rossum was formerly the Benevolent Dictator for Life (BDFL) of Python, until he stepped down as
 the leader on July 12, 2018, after some controversies in the decision-making of adding the walrus
-operator ([PEP 572](https://peps.python.org/pep-0572/)).
+operator ([PEP 572](https://peps.python.org/pep-0572/)) to Python.
 
 The current governance of Python is held by a five-person committee elected by the core developers
 called the Python Steering Council. The Python Steering Council is re-elected after every major
