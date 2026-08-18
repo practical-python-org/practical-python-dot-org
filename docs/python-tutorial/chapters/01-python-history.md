@@ -26,3 +26,11 @@ language in the world, used by millions of developers. Python is a versatile lan
 domains such as AI ML, cybersecurity, web development and data science to name a few. In this
 tutorial we will not be covering any of those domains, but instead we will start from the very
 basics to build your fundamentals and prepare you to learn them on your own.
+
+<figure markdown="span">
+
+![Image title](/static/python-tutorial/guido-portrait-2014.jpg){ width="300" }
+
+<figcaption>Guido van Rossum in 2014</figcaption>
+
+</figure>
