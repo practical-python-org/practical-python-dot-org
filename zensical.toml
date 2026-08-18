@@ -20,6 +20,8 @@ nav = [
 
   { "Python Tutorial" = [
       "python-tutorial/index.md",
+      "python-tutorial/chapters/index.md",
+      "python-tutorial/chapters/01-python-history.md",
   ] },
   { "Resources" = [
     "resources/index.md",
