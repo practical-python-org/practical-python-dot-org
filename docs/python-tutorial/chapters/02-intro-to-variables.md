@@ -40,7 +40,11 @@ variable points to.
 
 ![Image title](/static/python-tutorial/02-memory.png){ width="600" }
 
-<figcaption></figcaption>
+<figcaption>
+    The numbers indicate memory addresses and `~` indicate some random data from other programs,
+    irrelevant to us. You can imagine memory addresses in a similar concept to your house address.
+    They both are used to locate the whereabouts.
+</figcaption>
 
 </figure>
 
@@ -48,8 +52,6 @@ variable points to.
 
     The above image is only an example of how variables point to memory addresses. Note that it is not a
     complete representation of how computer memory looks like. Only meant for understanding purposes.
-    The numbers indicate memory addresses and `~` indicate some random data from other programs,
-    irrelevant to us.
 
 From the diagram above, the variable `name` points to the memory addresses `3` - `6`, but in our
 previous example code, we never had to specify it! That's because python keeps track of what
