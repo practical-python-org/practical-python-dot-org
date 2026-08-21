@@ -6,11 +6,11 @@ description: Introduction to Python variables.
 
 ??? note "Brief on Computer RAM"
 
-    In this chapter we will also be talking about RAM to better understand variables, but first let's
-    quickly cover what it is. RAM (Random Access Memory) is where your computer stores data while a
+    In this chapter, we will also be talking about Random Access Memory (RAM) to better understand
+    variables, but first, let's quickly cover what it is. RAM is where your computer stores data while a
     program is running. It is fast, but volatile (wiped when power is lost, unlike disk storage).
-    Whenever you run your python program, it loads it on the RAM and the instructions are then fed to
-    the CPU by your Operating System.
+    Whenever you run your Python program, it loads it into the RAM and the instructions are then fed to
+    the CPU by your operating system.
 
 Variables give programmers an easy way to work with the computer's memory - they act as a bridge
 that lets us use and manipulate memory without dealing with it directly. That is all variables do.
@@ -24,17 +24,17 @@ Let's take a look at how we can define a variable in python:
 name = "Alan"
 ```
 
-Let's break this down, over here `name` is what we call a variable. `"Alan"` is the data we're
+Let's break this down. Over here, `name` is what we call a variable. `"Alan"` is the data we're
 assigning to that variable through the assignment operator (`=`).
 
 !!! note
 
-    We will learn more about data types and operators in later chapters. We will be focusing on
-    variables mostly for now.
+    We will learn more about data types and operators in later chapters. We will be focusing mostly on
+    variables for now.
 
-So, where does memory come in play here that we discussed before? When we create a variable in
-Python it automatically reserves some space in memory and places the data there, which then the
-variable points to.
+So, where does the memory that we discussed before come into play here? When we create a variable in
+Python, it automatically reserves some space in memory and places the data there, which the variable
+then points to.
 
 <figure markdown="span">
 
