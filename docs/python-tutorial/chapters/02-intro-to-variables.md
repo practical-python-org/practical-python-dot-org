@@ -53,11 +53,11 @@ then points to.
     The above image is only an example of how variables point to memory addresses. Note that it is not a
     complete representation of how computer memory looks like. Only meant for understanding purposes.
 
-From the diagram above, the variable `name` points to the memory addresses `3` - `6`, but in our
-previous example code, we never had to specify it! That's because python keeps track of what
-variables point to which memory addresses, hence the whole point of it! Instead of manually keeping
-track of which data point to what memory locations, we can use variables which provide a clear way
-for us to label certain parts of the memory for specific uses.
+In the diagram above, the variable `name` points to memory addresses `3` - `6`; but notice we never
+had to specify that in our code. That's because Python handles this tracking for us automatically.
+This is really the whole point of variables: instead of manually keeping track of which data lives
+at which memory address, we can just use a variable name as a clear, readable label for that piece
+of memory.
 
 Now that we understand why we use variables, we must also know the rules for declaring variables in
 Python. There are 4 simple rules which follow:
