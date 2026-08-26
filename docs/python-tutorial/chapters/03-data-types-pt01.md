@@ -53,7 +53,7 @@ player_hp_max = 100
 
 ## Floating Point Data Type
 
-Floating Point data type, more commonly called Float is a data type representing decimal numbers.
+Floating Point data type, more commonly called Float, is a data type representing decimal numbers.
 
 Example:
 
@@ -61,3 +61,22 @@ Example:
 wallet_money_amount = 124.43
 bank_money_amount = 33.2
 ```
+
+## Boolean Data Type
+
+Boolean (or bool) is a special data type in Python. A boolean can only be one of two values: `True`
+or `False`.
+
+Example:
+
+```python
+is_running = True
+is_flying = False
+```
+
+!!! warning
+
+    `True` and `False` are case sensitive. `true` is **not** the same as `True`.
+
+Booleans are more commonly used in conditional statements, loops and comparison operators which we
+will learn in later chapters as a continuation.
