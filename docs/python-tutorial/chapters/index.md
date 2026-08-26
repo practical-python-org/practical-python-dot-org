@@ -9,7 +9,7 @@ description: List of topics to be covered in the Python tutorial.
 - [Brief Python History](01-python-history.md)
 - [Introduction to Variables](02-intro-to-variables.md)
 - Data Types pt 1 (`int`, `float`, `bool` & `strings`)
-- Builtin Functions pt 1 (`print` & `input` and type casting)
+- [Builtin Functions pt 1 (`print` & `input` and type casting)](04-built-in-functions-pt-1.md)
 - String Interpolation & Concatenation (f-strings, str.format & +)
 - Operators pt 1 (Comparison & Arithmetic)
 - Conditional Statements (`if`, `else` & `elif`)

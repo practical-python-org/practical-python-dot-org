@@ -23,6 +23,7 @@ nav = [
       "python-tutorial/chapters/index.md",
       "python-tutorial/chapters/01-python-history.md",
       "python-tutorial/chapters/02-intro-to-variables.md",
+      "python-tutorial/chapters/04-built-in-functions-pt-1.md",
   ] },
   { "Resources" = [
     "resources/index.md",
