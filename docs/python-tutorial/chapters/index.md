@@ -4,11 +4,14 @@ description: List of topics to be covered in the Python tutorial.
 
 # Topics
 
+The topics in this tutorial are organized into 3 levels, with each level covering progressively more
+in-depth Python features.
+
 ## Level 1
 
 - [Brief Python History](01-python-history.md)
 - [Introduction to Variables](02-intro-to-variables.md)
-- Data Types pt 1 (`int`, `float`, `bool` & `strings`)
+- [Data Types pt 1 (`string`, `int`, `float` & `bool`)](03-data-types-pt01.md)
 - Builtin Functions pt 1 (`print` & `input` and type casting)
 - String Interpolation & Concatenation (f-strings, str.format & +)
 - Operators pt 1 (Comparison & Arithmetic)
