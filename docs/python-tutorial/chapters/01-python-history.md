@@ -23,8 +23,8 @@ Python language.
 
 As of August 2026, according to the TIOBE Community Index, Python is _the_ most popular programming
 language in the world, used by millions of developers. Python is a versatile language used in many
-domains such as AI ML, cybersecurity, web development and data science to name a few. In this
-tutorial we will not be covering any of those domains, but instead we will start from the very
+domains such as AI/ML, cybersecurity, web development and data science to name a few. In this
+tutorial, we will not be covering any of those domains, but instead we will start from the very
 basics to build your fundamentals and prepare you to learn them on your own.
 
 <figure markdown="span">
