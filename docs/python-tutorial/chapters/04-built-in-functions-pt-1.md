@@ -94,7 +94,7 @@ There are two types of type casting:
 ### Explicit Type Casting
 
 Python has many built-in functions for explicit type casting, and they are named the same as the
-data type it casts to. Here is the list of type casting functions with the type it casts to:
+data type it casts to. Here is the list of type-casting functions with the type it casts to:
 
 | Function  | Type |
 |-----------|------|
