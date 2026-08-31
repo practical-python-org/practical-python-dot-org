@@ -11,7 +11,7 @@ description: Built-in Functions Part 1
     functions in great detail later in this tutorial, so don't worry about that for now.
 
 Python has many built-in functions which you can use to make your life easier. In this section, we
-will take a look at `print`, `input`, and some type-casting functions in detail.
+will take a look at `print`, `input` and some type-casting functions in detail.
 
 ## `print()`
 
@@ -75,7 +75,7 @@ name = input("Enter your name: ")
 print(name)
 ```
 
-The `input` function returns the input as a `str` so the variable `name` will be of type `str`. The
+The `input` function returns the input as a `str`, so the variable `name` will be of type `str`. The
 output of above code will be whatever the user entered.
 
 ## Type Casting
