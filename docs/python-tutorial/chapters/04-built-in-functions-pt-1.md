@@ -16,7 +16,7 @@ will take a look at `print`, `input`, and some type-casting functions in detail.
 ## `print()`
 
 The `print` function is used to print/show something on the screen (also known as the terminal or
-standard output). With this you can write the first program that every programmer writes when they
+standard output). With this, you can write the first program that every programmer writes when they
 learn a new language:
 
 ```python
@@ -43,8 +43,8 @@ print(a) # Output: python
 ```
 
 Each `print` statement prints on a new line. You can print multiple things using a single `print`
-statement by separating them using commas(`,`), which will result in all the values being printed on
-the same line separated by spaces.
+statement by separating them using commas (`,`), which will result in all the values being printed
+on the same line separated by spaces.
 
 ```python
 print("Value of pi is", 3.14) # Output: Value of pi is 3.14
@@ -52,7 +52,7 @@ print("Value of pi is", 3.14) # Output: Value of pi is 3.14
 
 !!! note
 
-    Keep in mind that this works only in `print` and can NOT be used to combine different strings or
+    Keep in mind that this works only in `print` and CANNOT be used to combine different strings or
     variables with strings otherwise.
 
 ## `input()`
@@ -82,7 +82,7 @@ output of above code will be whatever the user entered.
 
 Now you know how to take input from the user, but, the `input` function returns a `str` no matter
 what the user types. So, for example, if the user types `54`, it will return a `str` (`"54"`), not
-an `int` (`54`). So if you want to use the number the user entered, you will need to convert the
+an `int` (`54`). So, if you want to use the number the user entered, you will need to convert the
 `str` returned by `input` to an `int`. This process of converting one data type to another is called
 **type casting**.
 
@@ -94,7 +94,7 @@ There are two types of type casting:
 ### Explicit Type Casting
 
 Python has many built-in functions for explicit type casting, and they are named the same as the
-data type it casts to. Here is the list of type-casting functions with the type they cast to:
+data type they cast to. Here is the list of type-casting functions with the type they cast to:
 
 | Function  | Type |
 |-----------|------|
@@ -103,7 +103,7 @@ data type it casts to. Here is the list of type-casting functions with the type 
 | `int()`   | `int` |
 | `str()`   | `str` |
 
-For example, to get a number from the user you can do this:
+For example, you can do this to get a number from the user:
 
 ```python
 number_string = input("Enter a number: ")
