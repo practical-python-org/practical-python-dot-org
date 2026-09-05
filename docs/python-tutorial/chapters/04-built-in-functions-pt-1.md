@@ -1,45 +1,51 @@
 ---
-description: Built-in Functions Part 1
+description: Part 1 of Built-in Functions
 ---
 
-# Built-in Functions Part 1
+# Built-in Functions Part 01
 
-!!! note
+## What are built-in functions?
 
-    This chapter will only cover how to use some built-in functions. So, for now, consider functions as
-    helper code which does some specific task and is pre-written for you to use. You will learn about
-    functions in great detail later in this tutorial, so don't worry about that for now.
+A function is a reusable block of code that performs a specific task. You give it some input
+(sometimes), it does something with it, and it gives you back a result. Python has many built-in
+functions which you can use to make your life easier. In this section, we will take a look at
+`print`, `input` and some type-casting functions in detail for this chapter.
 
-Python has many built-in functions which you can use to make your life easier. In this section, we
-will take a look at `print`, `input` and some type-casting functions in detail.
+## `print()` function
 
-## `print()`
-
-The `print` function is used to print/show something on the screen (also known as the terminal or
-standard output). With this, you can write the first program that every programmer writes when they
-learn a new language:
+The `print` function is used to show text on the screen (also known as the terminal or standard
+output). With this, you can write your first program that every programmer writes when they learn a
+new language:
 
 ```python
-print("Hello World!") # Output: Hello World!
+print("Hello World!")
 ```
 
-This line of code will print `Hello World!` on your screen. You can also print any other data type
-(such as `int`, `float`, or `bool`) using `print`.
+When you run this program, it should show `Hello World!` in your terminal. We are not limited to
+only strings, we can even print out other kinds of data types!
 
 ```python
-print("My name is Alex") # Output: My name is Alex
-print(56) # Output: 56
-print(3.14) # Output: 3.14
-print(False) # Output: False
+print("My name is Alex")
+print(56)
+print(3.14)
+print(False)
 ```
 
-You can also print the data currently present in a variable using `print`.
+We can also use print variables, which will print out the data present within them!
 
 ```python
-a = 5
-print(a) # Output: 5
-a = "python"
-print(a) # Output: python
+age = 43
+print(age)
+
+language = "python"
+print(language)
+```
+
+The output of the code above will be:
+
+```text
+43
+python
 ```
 
 Each `print` statement prints on a new line. You can print multiple things using a single `print`
@@ -47,67 +53,142 @@ statement by separating them using commas (`,`), which will result in all the va
 on the same line separated by spaces.
 
 ```python
-print("Value of pi is", 3.14) # Output: Value of pi is 3.14
+print("Value of pi is", 3.14)
 ```
+
+This allows us to also print out variables in the same line too.
+
+```python
+name = "Radagon"
+money = 30
+print(name, "has", money, "dollars to his name.")
+```
+
+This will print out `Radagon has 30 dollars to his name.`
 
 !!! note
 
-    Keep in mind that this works only in `print` and CANNOT be used to combine different strings or
-    variables with strings otherwise.
+    Keep in mind that the comma separation of values only work in the `print` function.
 
-## `input()`
+## `input()` function
 
-The `input` function is used to take input from the user through the terminal (also known as the
-standard input). It returns everything the user types until the user hits the `Enter`/ `Return` key
-on the keyboard. You can also give a `str` to the `input` function which will be displayed on the
-screen while taking the input. For example:
+The `input` function is used to take input from the user through the terminal. It returns everything
+the user types until the user hits the ++enter++ key. You can also pass in a string to the function
+which will appear as a prompt before asking for input, like so:
 
 ```python
 input("Enter your name: ")
 ```
 
 The above code will print `Enter your name: ` followed by a blinking cursor where you can type the
-actual input. Now, to actually use the value the user entered, you need to assign the value returned
-by the `input` function to a variable.
+actual input. Now, to actually use the value entered by the user, you need to assign the value
+returned by the `input` function to a variable.
 
 ```python
 name = input("Enter your name: ")
-print(name)
+print("Hello", name, "! Hope you have a wonderful day.")
 ```
 
-The `input` function returns the input as a `str`, so the variable `name` will be of type `str`. The
-output of above code will be whatever the user entered.
+The output of this will be:
+
+```text
+Enter your name: Krish
+Hello Krish ! Hope you have a wonderful day.
+```
+
+!!! note
+
+    You must keep in mind that the `input` function will _always_ return the user input as a string.
 
 ## Type Casting
 
-Now you know how to take input from the user, but, the `input` function returns a `str` no matter
-what the user types. So, for example, if the user types `54`, it will return a `str` (`"54"`), not
-an `int` (`54`). So, if you want to use the number the user entered, you will need to convert the
-`str` returned by `input` to an `int`. This process of converting one data type to another is called
-**type casting**.
+Type casting is the process of converting one data type to another. Remember the note from above?
+> You must keep in mind that the `input` function will _always_ return the user input as a string.
 
-There are two types of type casting:
-
-1. **Implicit Type Casting**: It is done automatically by Python when it is needed.
-2. **Explicit Type Casting**: It is done manually by the programmer.
-
-### Explicit Type Casting
-
-Python has many built-in functions for explicit type casting, and they are named the same as the
-data type they cast to. Here is the list of type-casting functions with the type they cast to:
-
-| Function  | Type |
-|-----------|------|
-| `bool()`  | `bool` |
-| `float()` | `float` |
-| `int()`   | `int` |
-| `str()`   | `str` |
-
-For example, you can do this to get a number from the user:
+There will be scenarios where you need the input function to return a data type other than a string.
+One such place could be when you want to make a calculator that adds two numbers. Let's take a look
+at how we would do it without any type casting.
 
 ```python
-number_string = input("Enter a number: ")
-number_int = int(number_string)
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+result = num1 + num2
+
+print("The sum of", num1, "and", num2, "is", result)
 ```
 
-Similarly, you can use other functions according to the data type you need.
+If we run this program and enter two numbers, this is the result we would get:
+
+```text
+Enter the first number: 23
+Enter the second number: 12
+The sum of 23 and 12 is 2312
+```
+
+As we can see, `23 + 12` is clearly _not_ supposed to be 2312. So what's happening here?
+
+The variables `num1` and `num2` hold a string data type of the user input. When you perform an
+addition operation on two strings (`result = num1 + num2`) you are simply joining two strings
+together, side-by-side. This is also called string concatenation which we will learn more about in
+the next chapter.
+
+This is where type casting comes to fix this problem. We need to convert the string data type to
+integer so the computer can follow regular arithmetic for our use case.
+
+```python
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+
+int_num1 = int(num1)
+int_num2 = int(num2)
+
+result = int_num1 + int_num2
+
+print("The sum of", num1, "and", num2, "is", result)
+```
+
+Running it now gives the correct result:
+
+```text
+Enter the first number: 23
+Enter the second number: 12
+The sum of 23 and 12 is 35
+```
+
+`int_num1 = int(num1)` and `int_num2 = int(num2)` is what we call type casting. We're casting the
+input string to an integer, then assigning it to a variable.
+
+Another common way to write the code above is:
+
+```python
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+result = num1 + num2
+
+print("The sum of", num1, "and", num2, "is", result)
+```
+
+Both the programs perform the same way, with the only difference being that we aren't creating an
+extra variable in the latter. Whenever you see functions being executed within another function:
+
+```python
+num1 = int(input("Enter the first number: "))
+```
+
+Remember that the innermost function is the one that always executes first. In this case, the
+`input` function is the one that fires first. Once the user gives an input, the string input
+automatically goes to the `int` function, which then converts the input string to an integer and
+assigns it to the `num1` variable.
+
+The example above shows you how to convert user input to an integer. In case you want to use
+decimals instead of integers, you can type cast it to `float`.
+
+```python
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+result = num1 + num2
+
+print("The sum of", num1, "and", num2, "is", result)
+```
