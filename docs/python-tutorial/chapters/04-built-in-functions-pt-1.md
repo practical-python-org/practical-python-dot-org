@@ -31,7 +31,7 @@ print(3.14)
 print(False)
 ```
 
-We can also use print variables, which will print out the data present within them!
+We can also print variables, this prints out the data present within them.
 
 ```python
 age = 43
@@ -156,7 +156,8 @@ The sum of 23 and 12 is 35
 ```
 
 `int_num1 = int(num1)` and `int_num2 = int(num2)` is what we call type casting. We're casting the
-input string to an integer, then assigning it to a variable.
+input string to an integer, then assigning it to a variable. (Assigning the cast value to a separate
+variable is optional and can be omitted.)
 
 Another common way to write the code above is:
 
@@ -177,9 +178,9 @@ num1 = int(input("Enter the first number: "))
 ```
 
 Remember that the innermost function is the one that always executes first. In this case, the
-`input` function is the one that fires first. Once the user gives an input, the string input
-automatically goes to the `int` function, which then converts the input string to an integer and
-assigns it to the `num1` variable.
+`input` function is the one that fires first. It waits for the user to give an input. After an input
+is given, the data transfers to the `int()` function - converting the string data to an integer (if
+the input is valid). Finally, the data gets assigned to the variables.
 
 The example above shows you how to convert user input to an integer. In case you want to use
 decimals instead of integers, you can type cast it to `float`.
