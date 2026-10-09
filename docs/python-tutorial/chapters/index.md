@@ -14,6 +14,8 @@ in-depth Python features.
 - [Data Types pt 1 (`string`, `int`, `float` & `bool`)](03-data-types-pt01.md)
 - Builtin Functions pt 1 (`print` & `input` and type casting)
 - [String Interpolation & Concatenation (f-strings, str.format & +)](05-string-functions.md)
+- [Builtin Functions pt 1 (`print` & `input` and type casting)](04-built-in-functions-pt01.md)
+- String Interpolation & Concatenation (f-strings, str.format & +)
 - Operators pt 1 (Comparison & Arithmetic)
 - Conditional Statements (`if`, `else` & `elif`)
 - Operators & Conditional Statements pt 2 (Logical operators)

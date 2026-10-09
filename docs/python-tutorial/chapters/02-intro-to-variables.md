@@ -7,8 +7,8 @@ description: Introduction to Python variables.
 ??? note "Brief on Computer RAM"
 
     In this chapter, we will also be talking about Random Access Memory (RAM) to better understand
-    variables, but first, let's quickly cover what it is. RAM is where your computer stores data while a
-    program is running. It is fast, but volatile (wiped when power is lost, unlike disk storage).
+    variables, but first, let's quickly cover what it is. RAM is where your computer stores the data of
+    a running program. It is fast, but volatile (wiped when power is lost, unlike disk storage).
     Whenever you run your Python program, it loads it into the RAM and the instructions are then fed to
     the CPU by your operating system.
 

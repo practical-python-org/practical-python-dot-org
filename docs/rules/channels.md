@@ -59,5 +59,11 @@ Commands work in most channels, but check before filling a help channel with bot
     The format is:
 
     ````text
+
     >run
-    ```py print("oh wow!") ``` ````
+    ```py
+
+    print("oh wow!")
+
+    ```
+    ````
