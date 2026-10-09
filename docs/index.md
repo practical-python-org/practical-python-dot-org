@@ -52,9 +52,6 @@ A Discord community for people who write Python. {{ member_count }} of us so far
 
     [:octicons-arrow-right-24: Read the rules](rules/index.md)
 
-
-
-
 -   :material-bug:{ .lg .middle } __Found a mistake on the site?__
 
     ---
@@ -63,6 +60,5 @@ A Discord community for people who write Python. {{ member_count }} of us so far
   something is wrong, unclear, or missing, open an issue or PR!
 
     [:octicons-arrow-right-24: Contribute!](projects/our-projects/this-site.md)
-
 
 </div>
