@@ -193,3 +193,13 @@ result = num1 + num2
 
 print("The sum of", num1, "and", num2, "is", result)
 ```
+
+Similarly, we can cast data to other types, such as strings and booleans, by calling their
+respective functions.
+
+| Data Type  | Function Call |
+| ---------- | ------------- |
+| String     | `str()`       |
+| Integers   | `int()`       |
+| Floats     | `float()`     |
+| Boolean    | `bool()`      |
