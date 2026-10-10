@@ -1,5 +1,7 @@
 ---
 date: 2026-10-10
+authors:
+  - xarlos
 description: Why practicalpython.org has a blog now, and what will be posted on it.
 categories:
   - Site news

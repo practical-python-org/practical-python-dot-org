@@ -1,5 +1,7 @@
 ---
 date: 2026-10-10
+authors:
+  - xarlos
 description: Python 3.15 is out. Lazy imports, frozendict, unpacking in comprehensions, UTF-8 by default and a new profiler.
 categories:
   - Python releases
