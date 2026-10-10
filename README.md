@@ -1,4 +1,4 @@
-# practical-python.org
+# practicalpython.org
 
 The website and documentation space for the Practical Python Discord community.
 
