@@ -55,6 +55,11 @@ nav = [
   { "Code Adventure" = [
     "code-adventure/index.md",
   ] },
+  # Posts are not listed here. The blog plugin collects them from
+  # docs/blog/posts/ and lists them on the index, newest first.
+  { "Blog" = [
+    "blog/index.md",
+  ] },
 ]
 
 [project.theme]
@@ -108,6 +113,11 @@ toggle.name = "Switch to light mode"
 [project.validation]
 invalid_links = true
 invalid_link_anchors = true
+
+[project.plugins.blog]
+blog_dir = "blog"
+post_readtime = true
+post_excerpt = "required"
 
 [project.markdown_extensions.zensical.extensions.macros]
 on_undefined = "strict"
