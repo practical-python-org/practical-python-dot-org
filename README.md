@@ -75,8 +75,7 @@ Pull requests run `.github/workflows/ci.yml` — the same pre-commit checks you 
 
 ## Dependencies
 
-One direct dependency, `zensical`, pinned through `uv.lock`. `requirements.txt` is generated from
-the lockfile for anyone who wants to read the tree without uv:
+One direct dependency, `zensical`, pinned through `uv.lock`.
 
 ```bash
 uv export --no-dev --no-hashes --no-emit-project -o requirements.txt
