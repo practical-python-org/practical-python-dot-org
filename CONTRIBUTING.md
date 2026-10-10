@@ -93,7 +93,7 @@ Values that appear on more than one page live in `[project.extra]` in `zensical.
 Join us at {{ discord_invite }}.
 ```
 
-Available: `discord_invite`, `eos_repo`, `site_repo`. Add more there rather than pasting a URL into
+Available: `discord_invite`, `eos_repo`, `site_repo`, `member_count`. Add more there rather than pasting a URL into
 six pages.
 
 ### What not to add
