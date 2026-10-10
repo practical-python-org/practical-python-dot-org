@@ -52,11 +52,19 @@ A Discord community for people who write Python. {{ member_count }} of us so far
 
     [:octicons-arrow-right-24: Read the rules](rules/index.md)
 
+-   :material-post-outline:{ .lg .middle } __Blog__
+
+    ---
+
+    Posts about Python and the tech around it, written by the community.
+
+    [:octicons-arrow-right-24: Read the blog](blog/index.md)
+
 -   :material-bug:{ .lg .middle } __Found a mistake on the site?__
 
     ---
 
-    Every page here is Markdown in a public repository, written by members. If
+    Every page here is Markdown in a public repository, written by the community. If
   something is wrong, unclear, or missing, open an issue or PR!
 
     [:octicons-arrow-right-24: Contribute!](projects/our-projects/this-site.md)

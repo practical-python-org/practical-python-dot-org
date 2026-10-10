@@ -17,16 +17,38 @@ broken link fails the build, and it's faster to find out on your machine.
 
 Forgetting step 2 means your page builds but nobody can find it.
 
+### Adding a blog post
+
+Blog posts are the one exception to step 2. Put the file in `docs/blog/posts/` and the blog index
+picks it up, newest first.
+
+```markdown
+---
+date: 2026-10-10
+description: One sentence.
+categories:
+  - Python releases
+---
+
+# Title
+
+Opening paragraph. This is what the blog index shows. Below a `<!-- more -->` tells the blog home where the preview cuts off and you see `more...`
+
+<!-- more -->
+
+The rest of the post.
+```
+
+`date` and the `<!-- more -->` line are required, and the build fails without them. Reuse an
+existing category before inventing one.
+
 ### Nav conventions
 
 The nav is written out rather than derived from the folder structure. Zensical can derive it, but it
 sorts alphabetically, which puts Projects ahead of Rules.
 
 - Every section's `index.md` comes first in its list.
-- Everything after that goes in reading order — the page a newcomer needs first goes first, not the
-  one that's alphabetically luckiest.
-- Nest a sub-group only when a section has two clear halves. `projects/` does. Nothing else needs
-  to.
+- Everything after that goes in reading order.
 
 ### Front matter
 
