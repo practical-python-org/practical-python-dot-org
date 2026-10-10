@@ -79,7 +79,7 @@ Do you love solving puzzles and learning something new? __Join us on a Code Adve
 
     :   __Corporate sponsorship opportunities are also available__.
 
-    [:simple-github:{ .lg .middle } __Github__](https://github.com/JefeThePug/Practical-Python-Code-Adventure)
+    [:simple-github:{ .lg .middle } __GitHub__](https://github.com/JefeThePug/Practical-Python-Code-Adventure)
 
     :   Curious about how the adventure was made? __Check out the project on GitHub__.
         If you like what you see, feel free to give it a :material-star:{ .lg .bottom }.

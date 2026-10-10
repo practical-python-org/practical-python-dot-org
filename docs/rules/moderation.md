@@ -12,7 +12,7 @@ What happens when a rule gets broken
 |------|---------------------------|------------------------------------------------------------|
 | 1    | Informal nudge in channel | First minor slip, you'll get notified                      |
 | 2    | Formal warning, logged    | Repeat of the same slip, or ignoring a moderator           |
-| 3    | Timeout, minutes to hours | Heated argument or overexcitment that won't cool down      |
+| 3    | Timeout, minutes to hours | Heated argument or overexcitement that won't cool down     |
 | 4    | Quarantine                | Spam, suspected compromised account. Step into our office. |
 | 5    | Kick                      | Pattern of warnings with no change                         |
 | 6    | Ban                       | Code of conduct breach, scams, ban evasion                 |

@@ -60,6 +60,8 @@ nav = [
 
 [project.theme]
 language = "en"
+# Template overrides: overrides/main.html adds Open Graph tags and the like.
+custom_dir = "overrides"
 features = [
   "content.action.edit",
   "content.code.annotate",
@@ -83,7 +85,6 @@ features = [
 ]
 
 [project.theme.icon]
-# TODO: replace with a real logo, since this is just a placeholder. Where did I put that...?
 logo = "material/language-python"
 repo = "fontawesome/brands/github"
 
