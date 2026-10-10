@@ -1,0 +1,60 @@
+{#-
+  Theme override: extends Zensical's base template to add the SEO tags it
+  doesn't emit on its own. Wired up by custom_dir in zensical.toml.
+-#}
+{% extends "base.html" %}
+
+{#- page.is_homepage is never set by Zensical, so compare URLs instead. -#}
+{% set is_homepage = page.canonical_url == config.site_url %}
+
+{#- The nav labels the homepage "Home", which would otherwise become its title. -#}
+{% block htmltitle %}
+  {% if is_homepage %}
+    <title>{{ config.site_name }}</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block extrahead %}
+  {% if is_homepage %}
+    {% set title = config.site_name %}
+  {% elif page.meta and page.meta.title %}
+    {% set title = page.meta.title %}
+  {% elif page.title %}
+    {% set title = page.title | striptags %}
+  {% else %}
+    {% set title = config.site_name %}
+  {% endif %}
+  {% if page.meta and page.meta.description %}
+    {% set description = page.meta.description %}
+  {% else %}
+    {% set description = config.site_description %}
+  {% endif %}
+  {% set is_post = page.meta and page.meta.date %}
+
+  {#- Open Graph: the preview card Discord, Slack and friends render for a link. -#}
+  <meta property="og:type" content="{{ 'article' if is_post else 'website' }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  {% if page.canonical_url %}
+    <meta property="og:url" content="{{ page.canonical_url }}">
+  {% endif %}
+  {% if is_post %}
+    <meta property="article:published_time" content="{{ page.meta.date }}">
+  {% endif %}
+  <meta name="twitter:card" content="summary">
+
+  {#- Tells Google the site's name, shown above results instead of the bare domain. -#}
+  {% if is_homepage %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": {{ config.site_name | tojson }},
+        "url": {{ config.site_url | tojson }}
+      }
+    </script>
+  {% endif %}
+{% endblock %}

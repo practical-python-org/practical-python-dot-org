@@ -43,6 +43,7 @@ uv run --dev pre-commit run --all-files
 docs/
 ├── index.md               landing page
 ├── CNAME                  custom domain, copied to the site root on build
+├── robots.txt             Tells crawlers and bots where to go
 ├── stylesheets/           colour, font and hero overrides
 ├── static/                logo and images
 ├── getting-started/       the entry point for new members
@@ -53,6 +54,8 @@ docs/
 │   ├── our-projects/      software the community maintains
 │   └── build-something/   project challenges for members
 └── code-adventure/        landing page for the Code Adventure puzzles!
+overrides/
+└── main.html              theme override adding Open Graph and other SEO tags
 scripts/
 └── refresh_member_count.py  updates the Discord member count before a deploy build
 zensical.toml              all site configuration, including the nav

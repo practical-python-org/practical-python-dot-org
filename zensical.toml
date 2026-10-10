@@ -59,6 +59,8 @@ nav = [
 
 [project.theme]
 language = "en"
+# Template overrides: overrides/main.html adds Open Graph tags and the like.
+custom_dir = "overrides"
 features = [
   "content.action.edit",
   "content.code.annotate",
