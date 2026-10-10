@@ -82,7 +82,6 @@ features = [
 ]
 
 [project.theme.icon]
-# TODO: replace with a real logo, since this is just a placeholder. Where did I put that...?
 logo = "material/language-python"
 repo = "fontawesome/brands/github"
 
