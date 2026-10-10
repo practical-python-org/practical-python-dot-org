@@ -44,8 +44,8 @@ The rest of the post.
 `date` and the `<!-- more -->` line are required, and the build fails without them. Reuse an
 existing category before inventing one.
 
-`authors` puts your name and picture on the post. Each entry is a key from
-`docs/blog/.authors.yml`, so add yourself there in the same pull request as your first post:
+`authors` puts your name and picture on the post. Each entry is a key from `docs/blog/.authors.yml`,
+so add yourself there in the same pull request as your first post:
 
 ```yaml
 authors:
