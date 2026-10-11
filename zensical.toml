@@ -26,6 +26,7 @@ nav = [
       "python-tutorial/chapters/03-data-types-pt01.md",
       "python-tutorial/chapters/04-built-in-functions-pt01.md",
       "python-tutorial/chapters/05-string-functions.md",
+      "python-tutorial/chapters/06-operators-pt01.md",
   ] },
   { "Resources" = [
     "resources/index.md",
