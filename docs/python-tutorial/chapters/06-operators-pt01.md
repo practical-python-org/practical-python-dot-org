@@ -1,42 +1,43 @@
 ---
-description: Comparison and Arithmetic Operations in Python.
+description: Comparison and Arithmetic Operators in Python.
 ---
 
-# Comparison and Arithmetic Operations
+# Comparison and Arithmetic Operators
 
-A quick revision on what all concepts we have learned so far:
+A quick revision of the concepts we have learned so far:
 
 - Brief on Python history
 - Variables
 - Data types (strings, integers, floats, booleans)
+- Built in functions
 - String concatenation & interpolation
 
 In this chapter we will be looking at what comparison and arithmetic operations are.
 
 ## Comparison Operators
 
-Comparison Operators (also known as Relational Operators), are used to compare values. They're very
-similar to how they're in mathematics.
+Comparison Operators (also known as Relational Operators) are used to compare values. They work very
+similar to how they do in mathematics.
 
-There are six types of comparison operators as follows:
+There are six comparison operators:
 
 | Operator Symbol  | Name                          |
 | ---------------- | ----------------------------- |
 | `>`              | Greater Than                  |
-| `<`              | Lesser Than                   |
+| `<`              | Less Than                     |
 | `==`             | Equal To                      |
 | `!=`             | Not Equal To                  |
 | `>=`             | Greater Than Or Equal To      |
-| `<=`             | Lesser Than Or Equal To       |
+| `<=`             | Less Than Or Equal To         |
 
-Comparison operators always return a boolean values (`True` or `False`) when used.
+Comparison operators always return a boolean value (`True` or `False`) when used.
 
 <figure markdown="span">
 
 ![Image title](/static/python-tutorial/06-operators.png){ width="640" }
 
 <figcaption>
-    The either side of the operator is what we call an operand.
+    Either side of an operator is what we call an operand. An operator is a symbol that performs an action on values, called operands.
 </figcaption>
 
 </figure>
@@ -56,7 +57,7 @@ Running this will give us the following output: ```text False True False ```
 This reads almost like plain English! 1 is not greater than 2, hence it returns and prints out
 `False`. 20 is larger than 1, which results the output being `True`, and so on.
 
-### Lesser Than Operator (`<`)
+### Less Than Operator (`<`)
 
 Checks if the right hand side operand is larger than the left hand side operand.
 
@@ -94,16 +95,15 @@ False
 
 !!! warning
 
-    Do not confuse between the Equivalence Operator (`==`) and the Assignment Operator (`=`). The
-    Equivalence Operator is used to check if both the operands are equal, whereas the Assignment
-    Operator is used to assign data to a variable.
+    Do not confuse the Equal To Operator (`==`) with the Assignment Operator (`=`). The Equal To
+    Operator is used to check if both the operands are equal, whereas the Assignment Operator is used to
+    assign data to a variable.
 
 ### Not Equal To Operator (`!=`)
 
 Checks if both the operands are _not_ equal.
 
 ```python
-
 print(10 != 10)
 print(3 != 4)
 print(3 != 8)
@@ -131,14 +131,14 @@ Output:
 
 ```text
 True
-True
 False
+True
 ```
 
 Here, 90 is greater than 18 which gives us `True` as the output. 23 is not greater but it is equal
 to 23 which also gives us `True` as the output.
 
-### Lesser Than Or Equal To Operator (`<=`)
+### Less Than Or Equal To Operator (`<=`)
 
 Checks if the right hand side operand is either greater than or equal to the left hand side operand.
 
@@ -156,7 +156,47 @@ False
 True
 ```
 
-## Arithmetic Operators
+### Comparison with Strings
+
+Comparison operators aren't limited to numbers. They work with strings too. The most common use is
+checking whether two strings are equal:
+
+```python
+print("Alan" == "Alan")
+print("Alan" != "James")
+```
+
+Output:
+
+```text
+True
+True
+```
+
+!!! warning
+
+    String comparison is case sensitive, so `"alan"` and `"Alan"` are **not** equal:
+
+```python
+print("alan" == "Alan")
+```
+
+Output:
+
+```text
+False
+```
+
+Python compares strings character by character, so even a single difference, including an extra
+space, makes the strings unequal.
+
+??? note "Using `<` and `>` with strings"
+
+    The other operators work on strings as well. Python compares strings alphabetically, character by
+    character, so `"apple" < "banana"` is `True` because `"a"` comes before `"b"`.
+
+    Be careful with uppercase and lowercase, though. Every uppercase letter is considered "smaller" than
+    every lowercase letter, so `"Zebra" < "apple"` is `True`.
 
 ## Arithmetic Operators
 
