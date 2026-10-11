@@ -220,5 +220,5 @@ Here are some general rules for their usage.
 
 - Use **f-string** interpolation for most situations. They are the shortest, the most readable, and
   the most common way to write modern Python.
-- Use **concatenation (+)** for simple cases where you want to join two strings only.
+- Use **concatenation (`+`)** for simple cases where you want to join two strings only.
 - **`str.format()`** when you are reading older code.
