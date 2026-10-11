@@ -54,8 +54,8 @@ print(3.2 > 9)
 
 Running this will give us the following output: ```text False True False ```
 
-This reads almost like plain English! 1 is not greater than 2, hence it returns and prints out
-`False`. 20 is larger than 1, which results the output being `True`, and so on.
+This reads almost like plain English! 1 is not greater than 2, hence it returns `False` and prints
+it out. 20 is larger than 1, which results the output being `True`, and so on.
 
 ### Less Than Operator (`<`)
 
@@ -320,16 +320,6 @@ print(minutes % 60)   # leftover minutes
 ```
 
 So 150 minutes is 2 hours and 30 minutes.
-
-??? note "A common use of modulus"
-
-    Modulus is the standard way to check if a number is even or odd. Any even number divided by `2`
-    leaves a remainder of `0`, while any odd number leaves a remainder of `1`:
-
-    ```python
-    print(8 % 2)  # 0, so 8 is even
-    print(9 % 2)  # 1, so 9 is odd
-    ```
 
 ### Exponentiation
 
