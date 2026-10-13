@@ -12,23 +12,23 @@ A quick revision of the concepts we have learned so far:
 - Built in functions
 - String concatenation & interpolation
 
-In this chapter we will be looking at what comparison and arithmetic operations are.
+In this chapter, we will be looking at what comparison and arithmetic operations are.
 
 ## Comparison Operators
 
 Comparison Operators (also known as Relational Operators) are used to compare values. They work very
-similar to how they do in mathematics.
+similarly to how they do in mathematics.
 
 There are six comparison operators:
 
 | Operator Symbol  | Name                          |
 | ---------------- | ----------------------------- |
-| `>`              | Greater Than                  |
-| `<`              | Less Than                     |
-| `==`             | Equal To                      |
-| `!=`             | Not Equal To                  |
-| `>=`             | Greater Than Or Equal To      |
-| `<=`             | Less Than Or Equal To         |
+| `>`              | Greater than                  |
+| `<`              | Less than                     |
+| `==`             | Equal to                      |
+| `!=`             | Not equal to                  |
+| `>=`             | Greater than or equal To      |
+| `<=`             | Less than or equal to         |
 
 Comparison operators always return a boolean value (`True` or `False`) when used.
 
@@ -44,7 +44,7 @@ Comparison operators always return a boolean value (`True` or `False`) when used
 
 ### Greater Than Operator (`>`)
 
-Checks if the left hand side operand is larger than the right hand side operand.
+Checks if the left-hand side operand is larger than the right-hand side operand.
 
 ```python
 print(1 > 2)
@@ -55,11 +55,11 @@ print(3.2 > 9)
 Running this will give us the following output: ```text False True False ```
 
 This reads almost like plain English! 1 is not greater than 2, hence it returns `False` and prints
-it out. 20 is larger than 1, which results the output being `True`, and so on.
+it out. 20 is larger than 1, which results in `True` being the output, and so on.
 
 ### Less Than Operator (`<`)
 
-Checks if the right hand side operand is larger than the left hand side operand.
+Checks if the right-hand side operand is larger than the left-hand side operand.
 
 ```python
 print(3 < 9)
@@ -77,7 +77,7 @@ False
 
 ### Equal To Operator (`==`)
 
-Checks if both left and right hand side operands are exactly equal.
+Checks if both left and right-hand side operands are exactly equal.
 
 ```python
 print(123 == 321)
@@ -119,7 +119,7 @@ True
 
 ### Greater Than Or Equal To Operator (`>=`)
 
-Checks if the left hand side operand is either greater than or equal to the right hand side operand.
+Checks if the left-hand side operand is either greater than or equal to the right-hand side operand.
 
 ```python
 print(90 >= 18)
@@ -140,7 +140,7 @@ to 23 which also gives us `True` as the output.
 
 ### Less Than Or Equal To Operator (`<=`)
 
-Checks if the right hand side operand is either greater than or equal to the left hand side operand.
+Checks if the right-hand side operand is either greater than or equal to the left-hand side operand.
 
 ```python
 print(4 <= 18)
@@ -284,13 +284,34 @@ minutes = 150
 print(minutes // 60)
 ```
 
+Output:
+
 ```text
 2
 ```
 
+??? note "Floor division and negative numbers"
+
+    Floor division always rounds **down**, toward negative infinity. With positive numbers this looks
+    like the decimal part is simply cut off, but with negative numbers it behaves differently:
+
+    ```python
+    print(7 // 2)
+    print(-7 // 2)
+    ```
+
+    Output:
+
+    ```text
+    3
+    -4
+    ```
+
+    `-7 / 2` is `-3.5`. Rounding down means moving to the next smaller number, which is `-4`, not `-3`.
+
 ### Modulus
 
-The modulus operator (`%`) gives us the **remainder** left over after a division. Remember long
+The modulus operator (`%`) gives us the **remainder** left over after division. Remember long
 division from school? `7 ÷ 2` is `3` with a remainder of `1`, so `7 % 2` is `1`:
 
 ```python
