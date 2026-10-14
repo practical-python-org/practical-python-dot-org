@@ -1,4 +1,4 @@
-# practical-python.org
+# practicalpython.org
 
 The website and documentation space for the Practical Python Discord community.
 
@@ -43,13 +43,19 @@ uv run --dev pre-commit run --all-files
 docs/
 ├── index.md               landing page
 ├── CNAME                  custom domain, copied to the site root on build
+├── robots.txt             Tells crawlers and bots where to go
 ├── stylesheets/           colour, font and hero overrides
+├── static/                logo and images
 ├── getting-started/       the entry point for new members
+├── python-tutorial/       the beginner tutorial
 ├── rules/                 server rules, code of conduct, moderation
 ├── resources/             learning material and setup guides
-└── projects/
-    ├── our-projects/      software the community maintains
-    └── build-something/   project challenges for members
+├── projects/
+│   ├── our-projects/      software the community maintains
+│   └── build-something/   project challenges for members
+└── code-adventure/        landing page for the Code Adventure puzzles!
+overrides/
+└── main.html              theme override adding Open Graph and other SEO tags
 scripts/
 └── refresh_member_count.py  updates the Discord member count before a deploy build
 zensical.toml              all site configuration, including the nav
@@ -75,11 +81,4 @@ Pull requests run `.github/workflows/ci.yml` — the same pre-commit checks you 
 
 ## Dependencies
 
-One direct dependency, `zensical`, pinned through `uv.lock`. `requirements.txt` is generated from
-the lockfile for anyone who wants to read the tree without uv:
-
-```bash
-uv export --no-dev --no-hashes --no-emit-project -o requirements.txt
-```
-
-CI installs from the lockfile, not from `requirements.txt`.
+One direct dependency, `zensical`, pinned through `uv.lock`.

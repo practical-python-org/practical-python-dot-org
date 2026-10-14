@@ -30,7 +30,7 @@ Harassment, slurs and bigotry get you removed without a warning ladder. See
 ## 2. Stay on topic
 
 Stick to the subject of the channel you're posting in. If your question doesn't fit anywhere
-obvious, ask anyway — we'd rather help you find your way then you not ask because you didn't know
+obvious, ask anyway — we'd rather help you find your way than you not ask because you didn't know
 where to ask.
 
 [Channels](channels.md) says what goes where.

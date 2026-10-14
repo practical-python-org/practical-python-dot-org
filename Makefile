@@ -1,4 +1,4 @@
-.PHONY: run, strict, pre-commit
+.PHONY: run strict pre-commit
 
 all: run
 

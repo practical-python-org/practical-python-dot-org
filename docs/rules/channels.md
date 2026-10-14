@@ -47,10 +47,10 @@ Commands work in most channels, but check before filling a help channel with bot
     /ticket
     ```
 
-!!! tip "It's a long list..."
+    !!! tip "It's a long list..."
 
-    The full list, with permissions and arguments, is in the
-    [Eos documentation](../projects/our-projects/eos.md).
+        The full list, with permissions and arguments, is in the
+        [Eos documentation](../projects/our-projects/eos.md).
 
 === "Run code in the chat!"
 

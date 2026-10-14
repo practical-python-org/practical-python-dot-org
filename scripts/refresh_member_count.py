@@ -22,7 +22,7 @@ API = "https://discord.com/api/v10/invites/{code}?with_counts=true"
 TIMEOUT = 10
 
 USER_AGENT = (
-    "practical-python-dot-org/1.0 (+https://practical-python.org; deploy script)"
+    "practical-python-dot-org/1.0 (+https://practicalpython.org; deploy script)"
 )
 MEMBER_COUNT_LINE = re.compile(r'^(member_count\s*=\s*)"[^"]*"', re.MULTILINE)
 
