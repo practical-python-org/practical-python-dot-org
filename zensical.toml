@@ -27,6 +27,7 @@ nav = [
       "python-tutorial/chapters/04-built-in-functions-pt01.md",
       "python-tutorial/chapters/05-string-functions.md",
       "python-tutorial/chapters/06-operators-pt01.md",
+      "python-tutorial/chapters/07-conditional-statements.md",
   ] },
   { "Resources" = [
     "resources/index.md",
