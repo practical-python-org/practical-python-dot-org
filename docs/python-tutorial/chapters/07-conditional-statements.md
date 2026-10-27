@@ -123,10 +123,10 @@ recommends 1 indent to consist of 4 spaces.
 !!! warning
 
     You can press the ++tab++ key to place indents in your code. Depending on the code editor you use,
-    it can either place spaces or a single `Tab` character. If your editor places a `Tab` character,
-    make sure to change it to spaces.
+    it can either place spaces or a single tab character. If your editor places a tab character, make
+    sure to change it to spaces.
 
-From the previous chapter we have learned about how Comparison Operators return a bool. The same
+From the previous chapter, we have learned about how comparison operators return a bool. The same
 concept is being used here. Let's take a look at an example and an animation that explains how it
 works.
 
@@ -135,16 +135,16 @@ print("Program start")
 
 age = 15
 
-if age >= 13:
-    print("Is a teenager")
-
 if age >= 18:
     print("Is an adult")
+
+if age >= 13:
+    print("Is a teenager")
 
 print("Program end")
 ```
 
-When you run your code, this is how Python would interpret it:
+When you run your code, this is how Python will interpret it:
 
 <figure markdown="span">
 
@@ -160,7 +160,7 @@ Program end
 
 !!! note
 
-    This program isn't perfect. There are some glaring issues, can you notice them before we fix it in
+    This program isn't perfect. There are some glaring issues; can you notice them before we fix it in
     the next subtopics?
 
 ## `else` Condition Statement
@@ -242,7 +242,7 @@ examples to get familiar with it.
 
     ```text
     if statement 1 executed
-    if statement 1 executed
+    if statement 2 executed
     ```
 
 === "Example 5"
@@ -263,6 +263,7 @@ examples to get familiar with it.
 ---
 
 !!! note
+
     An `else` always belongs to the `if` directly above it, and it can't stand on its own. Writing an
     `else` without an `if` before it raises a `SyntaxError`.
 
@@ -274,11 +275,11 @@ print("Program start")
 
 age = 15
 
-if age >= 13:
-    print("Is a teenager")
-
 if age >= 18:
     print("Is an adult")
+
+if age >= 13:
+    print("Is a teenager")
 
 print("Program end")
 ```
@@ -453,8 +454,8 @@ elif <boolean>:
 `<code-2>` only executes when the `<boolean>` of the `if` is `False` **and** the `<boolean>` of the
 `elif` is `True`.
 
-In a series of regular `if` statements, each statement is independent of the others. But `if` and
-`elif` statements are dependent on each other. This is because the pseudocode above is the same as:
+In a series of regular `if` statements, each statement is independent of the others. But `if`- and
+`elif`-statements are dependent on each other. This is because the pseudocode above is the same as:
 
 ```text
 if <boolean>:
