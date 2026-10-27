@@ -613,3 +613,91 @@ checks are unrelated, and `elif` when you want exactly one outcome out of severa
     - It can end with at most one `else`, which is optional and always comes last.
 
     An `elif` or `else` without an `if` before it raises a `SyntaxError`.
+
+## Truthy and Falsy Values
+
+In Python, every value can be treated as a bool. Values that aren't actually a bool are considered
+either truthy (they behave like `True`) or falsy (they behave like `False`). Let's take a
+look at what exactly makes a value one or the other.
+
+Any non-empty string, or in the case of integers and floats, any number other than `0`, is
+considered truthy.
+
+The opposite is true for falsy values. An empty string, or the number `0` (or `0.0`), is considered
+falsy.
+
+We can confirm this by using the `bool()` function. It takes in a value of any data type and
+converts it into a bool, following the rules above. This is type casting again, just like `int()`
+and `str()`.
+
+```python
+print(bool(100))
+print(bool(-330))
+print(bool(0))
+
+print()  # Prints out an empty line
+
+print(bool(0.0))
+print(bool(0.1))
+
+print()
+
+print(bool("This is a non-empty string."))
+print(bool(""))
+print(bool("0"))  # This is a string, and it's non-empty.
+```
+
+Its output is as follows:
+
+```text
+True
+True
+False
+
+False
+True
+
+True
+False
+True
+```
+
+!!! warning
+
+    The string `"0"` is **truthy**, even though the number `0` is falsy. Only a completely empty
+    string (`""`) is falsy. The same goes for `"False"`, which is just text, and a string containing
+    only a space (`" "`).
+
+### Using truthy and falsy values in conditions
+
+So far, we have placed bools and comparisons (like `age >= 18`) after an `if`. But an `if` statement
+actually accepts _any_ value and implicitly converts it into a bool. This lets us skip the comparison
+in some cases.
+
+A common use is checking whether the user typed anything at all:
+
+```python
+name = input("Enter your name: ")
+
+if name:
+    print(f"Hello, {name}!")
+else:
+    print("You didn't enter a name.")
+```
+
+If the user types `Alan`, `name` is `"Alan"`, which is a non-empty string and therefore truthy:
+
+```text
+Enter your name: Alan
+Hello, Alan!
+```
+
+If the user just presses ++enter++, `name` is `""`, which is falsy, so the `else` block runs:
+
+```text
+Enter your name:
+You didn't enter a name.
+```
+
+This is the same as writing `if name != "":`, only shorter. Both are correct, so use whichever you
+find easier to read.
