@@ -685,7 +685,7 @@ else:
     print("You didn't enter a name.")
 ```
 
-If the user types `Alan`, `name` is `"Alan"`, which is a non-empty string and therefore truthy:
+If the user types `Alan`, `name` is `"Alan"`, which is a non-empty string and therefore, truthy:
 
 ```text
 Enter your name: Alan
