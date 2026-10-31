@@ -86,11 +86,16 @@ Python. There are 4 simple rules which follow:
 Here is a list of **invalid** python variables:
 
 ```python
-full name = "James Bond"  # Contains a space
-age! = 90  # Contains a special character
-finally = "yes"  # Conflicts with the Python keyword "finally"
-20money = 900  # Starts with a number
+full name = "James Bond"
+age! = 90
+finally = "yes"
+20money = 900
 ```
+
+1. `full name` contains a space in it
+1. `age!` contains a special character (`!`)
+1. `finally` conflicts with the Python keyword of the same name
+1. `20money` starts with a number
 
 Below is a list of **valid** python variables:
 
